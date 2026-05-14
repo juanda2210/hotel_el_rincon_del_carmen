@@ -1,0 +1,14 @@
+button{
+    border: none;
+    outline: none;
+    cursor: pointer;
+}
+
+input{
+    border: none;
+    outline: none;
+}
+
+iframe{
+    display: block;
+}
