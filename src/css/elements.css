@@ -38,48 +38,86 @@ iframe{
     color:#334155;
     box-shadow:0 8px 20px rgba(15,23,42,.06);
 }
-.room-card{
-    box-shadow:0 10px 25px rgba(15,23,42,.08);
+.hero-tag{
+    width:max-content;
+    padding:.6rem 1rem;
+    border-radius:30px;
+    background:rgba(255,255,255,.14);
+    color:white;
+    font-size:.78rem;
+    font-weight:700;
+    letter-spacing:1px;
+    backdrop-filter:blur(10px);
+}
+.hero-title{
+    font-size:2.7rem;
+    font-weight:800;
+    line-height:1.05;
+    color:white;
+}
+.hero-text{
+    font-size:1rem;
+    line-height:1.7;
+    color:rgba(255,255,255,.82);
+}
+.section-title{
+    margin-bottom:1.3rem;
+    font-size:2rem;
+    font-weight:800;
+    color:#0f172a;
+}
+.contact-title{
+    font-size:2rem;
+    font-weight:800;
+    color:white;
+}
+.gallery-card{
+    overflow:hidden;
+    border-radius:24px;
+    background:white;
+    box-shadow:0 10px 30px rgba(15,23,42,.08);
     transition:.3s;
 }
-.room-card:hover{
+.gallery-card:hover{
     transform:translateY(-5px);
 }
-.room-card img{
+.gallery-card img{
     width:100%;
     height:170px;
     object-fit:cover;
     border-radius:18px;
 }
-.room-content h2{
+.gallery-info h3{
     font-size:1rem;
     font-weight:700;
     color:#0f172a;
 }
-.room-description{
-    font-size:.83rem;
+.gallery-info p{
+    font-size:.82rem;
     line-height:1.5;
     color:#64748b;
 }
-.room-services span{
-    padding:.45rem .7rem;
-    border-radius:12px;
-    background:#eff6ff;
-    color:#2563eb;
-    font-size:.7rem;
-    font-weight:600;
-}
-.room-footer strong{
-    font-size:.95rem;
-    color:#0f172a;
-}
-.room-footer button{
+.contact-form input{
+    width:100%;
+    padding:1rem;
     border:none;
-    padding:.7rem .9rem;
-    border-radius:12px;
-    font-size:.75rem;
-    font-weight:700;
+    outline:none;
+    border-radius:18px;
+    background:white;
+    font-size:1rem;
+    color:#334155;
+}
+.contact-form button{
+    border:none;
+    padding:1rem;
+    border-radius:18px;
     background:#2563eb;
     color:white;
+    font-size:1rem;
+    font-weight:700;
     cursor:pointer;
+    transition:.3s;
+}
+.contact-form button:hover{
+    transform:scale(1.02);
 }
