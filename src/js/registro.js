@@ -28,7 +28,7 @@ function crearAdminAutomatico() {
 
             name: "Juan Arias",
 
-            identification: "1097489524",
+            identification: "076542",
 
             email: "admin@hotel.com",
 
@@ -36,7 +36,7 @@ function crearAdminAutomatico() {
 
             country: "Colombia",
 
-            password: "Juanda.2210",
+            password: "cacas342",
 
             role: "admin"
 

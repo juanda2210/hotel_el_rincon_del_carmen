@@ -67,8 +67,8 @@ El sistema crea automáticamente un administrador al iniciar el proyecto por pri
 
 ```txt
 Nombre: Juan Arias
-Documento: 1097489524
-Contraseña: Juanda.2210
+Documento: 076542
+Contraseña: cacas342
 ```
 
 ---
